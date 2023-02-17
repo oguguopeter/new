@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    height: 70px;
+    width: auto;
+    background-color: #ffc244;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+nav img{
+    height: 70px;
+}
+
+nav button{
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: #00a082;
+    color: #fff;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+nav button:hover{
+    background-color: #00846b;
+}
+
+main{
+    background-color: #ffc244;
+    width: auto;
+    height: 500px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dami{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dami h1{
+    font-size: 63px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.dami p{
+    font-family: 'Quicksand';
+    font-size: 20px;
+}
+
+.right{
+    display: flex;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#flag{
+    background: #00a082;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.right input{
+    border: none;
+    padding-left: 10px;
+}
+
+.right input:active{
+    border: none;
+}
+
+#arrow{
+    color: #00a082;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #c2efe6;
+}
+
+.right a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 50px;
+    color: #00a082;
+}
